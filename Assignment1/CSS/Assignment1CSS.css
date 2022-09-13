@@ -1,0 +1,77 @@
+/*
+  this controls the main body styling of the Webpage
+  i am only using it to make the background a radial gradient
+  something more interesting than a plain color
+*/
+body {
+    background-image: radial-gradient(blue, white, red, black);
+}
+/*
+  all of the styling for the main page header is enclosed within the
+  h1 section. this is where i set some padding so that the text is not
+  that close to either the top or the sides of the page. also tells the
+  font to be bold and the size is controlled by it as well.
+  */
+h1 {
+    text-align: center;
+    font-size: 45px; font-weight: bold;
+    color: black;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+}
+
+/*
+  this is more or less the same as h1, but i only decided to control the
+  padding and text color within this header.
+*/
+
+h2 {
+    color: black;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+}
+
+/*
+  this controls what all the paragraphs on the webpage will look like.
+  to keep it simple i decided to just increase the font size a bit from
+  the stock html one and add some padding
+*/
+p {
+  font-size: 18px;
+  color: black;
+  padding-left: 100px;
+  padding-top: 40px;
+
+}
+
+/*
+  all i did for the table is add a border and a margin so that it
+  wasnt sitting on the far left edge of the page.
+*/
+
+table, th, td {
+    border: 1px solid black;
+    margin-left: 100px;
+}
+
+/*
+  this is a class that controls the centering of an image. i got this off of
+  W3Schools i believe, when i was searching how to center an image in html.
+*/
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/*
+  this is used to simply center the caption of the first image on the webpage.
+*/
+
+figcaption {
+  text-align: center;
+}
