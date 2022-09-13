@@ -1,0 +1,118 @@
+
+<!--
+File: Assignment1.html
+GUI Assignment: Creating Your First Web Page
+Erik van Tilborg, UML CS, UMass Lowell
+
+this webpage is a simple beginner webpage that has a couple
+
+Copyright (c) 2022 by Erik. All rights reserved. May be freely copied or excerpted for educational purposes with credit to the author.
+updated by EvT on 9-13-22
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Assignemnt 1 - "Our First Webpage"</title>
+    <!--
+        the following lines (19 and 20 are part of the starter code that was found from one of the sources provided) set up
+        the place that the html document will look for the required css file for the sytling
+        it also adds the ability use javascript, however it is not used in the file
+    -->
+    <link rel="stylesheet" href="CSS/Assignment1CSS.css">
+    <script src="script.js"></script>
+  </head>
+  <!--
+    after the header part of the webpage comes the body section
+    in which i have images, links and tables
+  -->
+  <body>
+    <h1>
+        Welcome to my first webpage.
+    </h1>
+    <figure>
+        <!--
+            the following represents calling an image to display on the webpage. since the image is in the folder
+            for the assignment/webpage, i can locally call it. this image is also my own. i took this while my friends
+            and i were playing some Destiny 2. i also added a caption to illistrate that fact
+        -->
+        <img src="Images/DestinyFunTime.JPG" alt="DestinyFunTime" style="width: 720px;height: 480px;" class="center" />
+        <figcaption>My Friends and I at one of the Boss Encounters in the King's Fall Raid in Destiny 2</figcaption>
+    </figure>
+    <br>
+    <br>
+    <!--
+      added a description with a supplemental picture of a Warlock in destiny 2. the paragraph contains
+      information that is both related to the game and some external things that are known quite well
+      by the Destiny community at large. The information isnt generally that useful, but it can be
+      an interesting thing to read/think about.
+    -->
+    <img src="Images/bestclass.jpeg" alt="bestclass" style="width: 600px;height: 360px;" align= "right" />
+    <p>
+      In my opinion, the best class in the game are Warlocks. (see picture to the right) <br>
+      They offer a wide range of different builds that can be tailored into certain aspects <br>
+      of the game. Currently my favorite build is an arc build that focuses heavily on melee <br>
+      and ability regeneration. When done right, it allows for near constant melee ability <br>
+      uptime. <br><br>
+      When compared to the other two classes in the game, Warlocks are considered to be the <br>
+      ones treated more favorably by the developers. A couple years ago, DeeJ, one of the <br>
+      community managers at the time at Bungie, was known for his bias toward Warlocks. <br>
+      At almost every reveal event or livestream bungie would put on, he was always donning <br>
+      his Dead Orbit (this is one of the 3 main factions within the game) geared Warlock. <br>
+      Sadly, he left bungie to pursue a new career at another game studio. <br><br>
+    </p>
+    <!--
+        The following block is where i have my links to various websites. one is the main webpage
+        of the Destiny 2 developers; Bungie. this is where you can learn more about the different
+        aspects of the game as well as some story elements thatmay help you understand the game
+        a little better. the others are a resource for Destiny 2 and the IGN link is to their
+        main page where they have some reviews for recent games amongst other things.
+    -->
+    <h2>
+        Here are some interesting websites that I like to visit.
+        Most of them are gaming related and more than likely will be Destiny related.
+    </h2>
+
+    <p>
+        <a href="https://www.bungie.net">Link to the makers of Destiny 2, Bungie</a><br>
+        <a href="https://www.light.gg">Game resource for Destiny 2</a><br>
+        <a href="https://www.ign.com">General game reviewer organization</a><br><br>
+    </p>
+    <!--
+        the following information is some "bias" informationabout the classes within Destiny that
+        players can choose from.
+    -->
+    <p>
+        The following "information" is from someone who has a bias toward one class over the other. <br>
+        These descriptions are supposed to be me joking around and not being remotely serious about accurate descriptions.<br><br>
+    </p>
+    <table>
+        <tr>
+            <!--
+                this is the table headers. it tells what the categories are and what will be in the columns
+            -->
+            <th>Classes</th>
+            <th>Playstyle</th>
+        </tr>
+        <tr>
+            <!--
+                the next two <td> are where the table data is stored. each is associated with the header for the
+                    section of the table.
+            -->
+            <td>Titan</td>
+            <td>See enemy, Punch enemy, repeat</td>
+        </tr>
+        <tr>
+            <td>Hunter</td>
+            <td>Go invisible, sneak, avoid fights, shotgun, repeat</td>
+        </tr>
+        <tr>
+            <td>Warlock</td>
+            <td>Literally space magic</td>
+        </tr>
+    </table>
+    <br><br>
+    <img src="Images/thatsallfolks.jpeg" alt="thatsallfolks" class="center" />
+  </body>
+</html>
